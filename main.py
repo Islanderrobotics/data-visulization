@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 data = pd.read_csv("/Users/williammckeon/Sync/youtube videos/dataanalysis/housing.csv")
-
+#will
 data.hist(figsize=(15-2,9.375-2))
 plt.show()
 data["total_rooms"].hist()
